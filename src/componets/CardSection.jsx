@@ -43,7 +43,12 @@ export const CardSection = () => {
                     {data.map((item, index) => {
                         return (
                             <Grid item xs={12} sm={12} md={4} key={index}>
-                                <Box>
+                                <Box
+                                    sx={{
+                                        display: "flex",
+                                        justifyContent: "center",
+                                    }}
+                                >
                                     <Card img={item.img} about={item.about} />
                                 </Box>
                             </Grid>
