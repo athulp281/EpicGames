@@ -12,8 +12,8 @@ export const Footer = () => {
                 sx={{
                     display: "flex",
                     justifyContent: "center",
-                    pt: 30,
-                    pb: 4,
+                    pt: 31,
+                    pb: 6,
                 }}
             >
                 <Typography
