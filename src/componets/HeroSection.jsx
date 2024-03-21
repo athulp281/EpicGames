@@ -48,7 +48,6 @@ export const HeroSection = () => {
                         backgroundImage: `url(${header})`,
                         backgroundSize: "cover",
                         backgroundPosition: "center",
-                        backgroundColor: "red",
                         height: smUp ? 500 : 300,
                         width: smUp ? "80%" : "95%",
                     }}
